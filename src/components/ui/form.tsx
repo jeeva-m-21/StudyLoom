@@ -24,8 +24,10 @@ const Form = ({
   className
 }: {
   children: React.ReactNode;
-  onSubmit: (data: any) => void;
-  form: UseFormReturn<any, any, undefined>;
+  // accept a native form submit handler (e.g. form.handleSubmit(fn))
+  onSubmit?: React.FormEventHandler<HTMLFormElement>;
+  // accept any react-hook-form return type
+  form: UseFormReturn<any>;
   className?: string;
 }) => {
   return (
