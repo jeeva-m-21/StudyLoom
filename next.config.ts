@@ -3,6 +3,9 @@ import { withSentryConfig } from '@sentry/nextjs';
 
 // Define the base Next.js configuration
 const baseConfig: NextConfig = {
+  turbopack: {
+    root: '.',
+  },
   images: {
     remotePatterns: [
       {
