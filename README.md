@@ -1,8 +1,6 @@
-Here is a **clean, professional README.md** for the project, fully based on your architecture + features.
 
----
 
-# **📘 Productivity & Study Management App — README**
+# **📘 Productivity & Study Management App — StudyLoom**
 
 A modern, full-stack productivity and study-management web application designed to help users improve focus, track study sessions, manage tasks, create flashcards, and analyze their performance.
 Built with **Next.js 15**, **React 19**, **TypeScript**, **Prisma**, **PostgreSQL**, **Clerk Auth**, and **Tailwind CSS**.
@@ -133,7 +131,7 @@ Firebase Analytics ── Sentry Monitoring
 ### **1. Clone the Repository**
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/jeeva-m-21/StudyLoom
 cd project-name
 ```
 
@@ -237,17 +235,4 @@ This project is for academic/portfolio/demo purposes unless otherwise specified.
 
 ---
 
-## 📞 **Contact**
 
-For issues or collaboration, feel free to reach out or open a GitHub issue.
-
----
-
-If you want, I can also generate:
-
-✔ **A CONTRIBUTING.md**
-✔ **A full project wiki outline**
-✔ **API documentation in MD format**
-✔ **Database schema documentation**
-
-Just tell me!
